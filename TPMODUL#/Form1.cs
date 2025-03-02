@@ -18,20 +18,11 @@ namespace TPMODUL_
             button1.Click += new EventHandler(button1_Click);
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             string inputText = textBox1.Text.Trim();
             label1.Text = "Halo " + inputText;
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
