@@ -35,9 +35,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(370, 108);
+            this.button1.Location = new System.Drawing.Point(408, 108);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(127, 23);
+            this.button1.Size = new System.Drawing.Size(261, 22);
             this.button1.TabIndex = 0;
             this.button1.Text = "Konfirmasi";
             this.button1.UseVisualStyleBackColor = true;
@@ -45,16 +45,17 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(197, 164);
+            this.label1.Location = new System.Drawing.Point(219, 172);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(64, 16);
             this.label1.TabIndex = 1;
-            this.label1.Text = "OUTPUT";           
+            this.label1.Text = "OUTPUT";
+            // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(188, 108);
+            this.textBox1.Location = new System.Drawing.Point(147, 108);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
+            this.textBox1.Size = new System.Drawing.Size(209, 22);
             this.textBox1.TabIndex = 2;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
