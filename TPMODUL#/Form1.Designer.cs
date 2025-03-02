@@ -47,11 +47,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(197, 164);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(45, 16);
+            this.label1.Size = new System.Drawing.Size(64, 16);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Output";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
+            this.label1.Text = "OUTPUT";           
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(188, 108);
@@ -69,7 +67,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
